@@ -412,7 +412,7 @@ export default class MaterializedViewsBuilder extends SelfServeBaseClass {
 
   @OnChange(onEnableMaterializedViewsBuilderChange)
   @Values({
-    labelTKey: userContext.apiType === "SQL" ? "GlobalSecondaryIndexesBuilder" : "MaterializedViewsBuilder",
+    labelTKey: userContext.apiType === "SQL" ? "Global Secondary Indexes Builder" : "Materialized Views Builder",
     trueLabelTKey: "Provisioned",
     falseLabelTKey: "Deprovisioned",
   })
